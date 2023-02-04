@@ -1,0 +1,69 @@
+#about {
+  // position: relative;
+  background: url("../../assets/tokyo-night.png");
+  background-size: cover; //whenever using image as background this must be set to cover
+  background-repeat: repeat;
+  background-position: center;
+
+  // .app__wrapper {
+  //   padding: 0;
+
+  //   .copyright {
+  //     display: none;
+  //   }
+  // }
+}
+
+.app__about-intro {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background: rgba(42, 41, 41, 0.825);
+  box-shadow: 0 0 25px rgb(255, 0, 247);
+
+  border-radius: 30px;
+  padding: 3.5rem;
+  color: var(--white-color);
+  font-weight: 600;
+  text-align: center;
+
+  margin-top: 5rem;
+
+  p {
+    font-size: 40px;
+  }
+}
+
+.app__profiles {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.app__profile-item {
+  width: 190px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+
+  margin: 2rem;
+
+  img {
+    width: 100%;
+    height: 160px;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+
+  @media screen and (min-width: 2000px) {
+    /* this is for extra large devices */
+    width: 360px;
+    margin: 2rem 4rem;
+
+    img {
+      height: 320px;
+    }
+  }
+}
