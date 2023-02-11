@@ -1,21 +1,23 @@
 # Portfolio-react_sass_sanity
 This project is used as my portfolio to show contents other than GitHub 
 
-<h3>Description</h3>
+### [Live Site](https://jameswu-portfolio.netlify.app)
+
+## Description
 
 This project has only been uploaded with major files:
 
---Frontend--
+  ----------- Frontend ----------
 
-React component files each deal with export index.js as channel to connect with app.js
+• React component files each deal with export index.js as channel to import to app.js
 
---Backend--
+  ----------- Backend -----------
 
-sanity files deal with different files of schema
+• Sanity files deal with different files of schema
 
---Architecture--
+  --------- Architecture ---------
 
-React folder structure and using wrapper with higher-order-components
+• React folder structure and using wrapper with higher-order-components
 
 
 <h4>the purpose of this project is to show my coding skill to interviewer or someone who would like to hire me.</h4> <br>
